@@ -1,2 +1,100 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+html, body {
+	height: 100%;
+	margin: 0;
+}
+#recipiente {
+	width: 800px;
+	min-height: 100%;
+	margin: auto;
+	background: linear-gradient(#f6f1b2, #4599b2);
+	border: 1px solid #d3d3d3;
+	font-family: Verdana;
+	color: #333;
+}
+
+#cabecalho {
+	float: right;
+	text-align: right;
+	margin: 10px 60px 0 0;
+}
+#cabecalho h1 {
+	margin: 10px 10px 0 0;
+	font-family: 'Ravie';
+	font-size: 36px;
+	color: #e90c0c;
+}
+#cabecalho h2 {
+	margin: 0;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+#cabecalho span {
+	color: #d027aa;
+}
+
+#recipiente .crab {
+	position: relative;
+	left: -10px;
+	top: 7px;
+}
+
+#recipiente .bubbles {
+	position: relative;
+    right: 20px;
+    float: right;
+}
+
+#recipiente .fish {
+	position: relative;
+	left: -44px;
+	top: 14px;
+}
+
+#lateral {
+	width: 154px;
+	float: left;
+}
+#lateral h2 {
+	writing-mode: vertical-lr;
+	margin: 80px auto 20px auto;
+	font-size: 48px;
+	font-weight: bold;
+	transform: rotate(180deg);
+}
+
+#cardapio {
+	width: 646px;
+	padding: 2px 20px 20px 20px;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 1px solid #aac0ae;
+	float: right;
+	font-size: 14px;
+}
+#cardapio h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+#cardapio .price {
+	float: right;
+}
+
+#ticket {
+	position: fixed;
+	top: 295px;
+	left: -69px;
+	transition: all 500ms;
+}
+
+#ticket:hover {
+	left: 0px;
+}
+
+#rodape {
+	padding: 46px 15px 25px 0;
+	text-align: right;
+	clear: right;
+}
